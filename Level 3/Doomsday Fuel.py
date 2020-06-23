@@ -16,7 +16,7 @@ For example, consider the matrix m:
   [0,0,0,0,0,0],  # s4 is terminal
   [0,0,0,0,0,0],  # s5 is terminal
 ]
-So, we can consider different paths to terminal states, such as:
+So, we can consider different paths to terminal states, such as :
 s0 -> s1 -> s3
 s0 -> s1 -> s0 -> s1 -> s0 -> s1 -> s4
 s0 -> s1 -> s0 -> s5
