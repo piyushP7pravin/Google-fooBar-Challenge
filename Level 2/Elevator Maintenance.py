@@ -42,9 +42,3 @@ Solution.solution({"1.1.2", "1.0", "1.3.3", "1.0.12", "1.0.2"})
 Output:
     1.0,1.0.2,1.0.12,1.1.2,1.3.3
 """
-l=["1.11", "2.0.0", "1.2", "2", "0.1", "1.2.1", "1.1.1", "2.0"]
-def sort_(st):
-    return [int(ele) for ele in st.split(".")]
-        
-l.sort(key = sort_)
-print(l)
