@@ -39,16 +39,3 @@ Input:
 Solution.solution("wrw blf hvv ozhg mrtsg'h vkrhlwv?")
 Output:
     did you see last night's episode?'''
-
-
-def solution(cipher):
-    decipher = ""
-    for i in cipher:
-        if i.islower():
-            decipher += chr(ord("z")-(ord(i)-ord("a")))
-        else:
-            decipher += i
-    return decipher
-
-cipher=input()
-print(solution(cipher))
